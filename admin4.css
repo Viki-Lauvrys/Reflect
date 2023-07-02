@@ -1,0 +1,16 @@
+
+
+#inputName,
+#thisIsTheChosenYear {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 4vh;
+    font-size: 17px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #000;
+    border-width: 1px;
+}

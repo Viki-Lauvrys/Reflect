@@ -1,0 +1,362 @@
+img.sort {
+    height: 14px;
+}
+
+.input:focus,
+.input1:focus {
+    outline: none !important;
+    border-width: 2px;
+}
+
+.input1 {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 2% 10px 2%;
+    padding: 0.5%;
+    flex: 46%;
+    border-width: 1px;
+}
+
+#addUser>form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addUser>form>.textChoise {
+    margin: 10px 2% 10px 2%;
+}
+
+#addUser>form>input[type=submit] {
+    margin: 10px 2% 10px 22.5%;
+    flex: 40%;
+}
+
+/* Style the input fields */
+.input {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin: 10% 0 0 10%;
+    width: 75%;
+    height: 4vh;
+    font-size: 17px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+input {
+    color: #bb7bfc;
+}
+
+#btn-convert {
+    padding: 0 !important;
+    height: calc(4vh + 20px);
+    width: calc(75% + 20px) !important;
+}
+
+.tableInput {
+    width: 100%;
+    height: 100%;
+}
+
+.role {
+    font-size: 17px;
+}
+
+.inputRole {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+#roleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+}
+
+img.sort {
+    height: 14px;
+}
+
+.input:focus,
+.input1:focus {
+    outline: none !important;
+    border-width: 2px;
+}
+
+.input1 {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 2% 10px 2%;
+    padding: 0.5%;
+    flex: 46%;
+    border-width: 1px;
+}
+
+#addUser>form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addUser>form>.textChoise {
+    margin: 10px 2% 10px 2%;
+}
+
+#addUser>form>input[type=submit] {
+    margin: 10px 2% 10px 22.5%;
+    flex: 40%;
+}
+
+input {
+    color: #bb7bfc;
+}
+
+.tableInput {
+    width: 100%;
+    height: 100%;
+}
+
+.role {
+    font-size: 17px;
+}
+
+.inputRole {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputEmpty {
+    margin-top: 15px;
+    color: white;
+}
+
+/* Common Styles for Admin Pages */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to right, #222 0%, #222 25%, #bb7bfc 25%, #bb7bfc 100%);
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+img {
+    height: 14px;
+    margin: auto 0;
+}
+
+.icon {
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+#titleWrapper {
+    display: flex;
+}
+
+h1 {
+    margin: 0 10px 0 0 !important;
+    color: #fff;
+}
+
+#sides-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-side {
+    margin: 0;
+    padding: 0;
+    width: 25vw;
+    overflow: hidden;
+    display: none;
+}
+
+#right-side {
+    display: none;
+    margin: 5vh 5%;
+    padding: 0;
+    width: calc(75vw - 10%);
+    height: 80vh;
+}
+
+/* Collapsible Content */
+
+#addPeriod {
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    padding-left: 10px;
+}
+
+#addBtn {
+    height: 18px;
+    margin-bottom: 7px !important;
+    cursor: pointer;
+}
+
+#back {
+    padding: 0 15px 15px 15px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+}
+
+/* Table Styles */
+
+.table-wrapper {
+    margin-top: 10px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    max-height: 75vh;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: #fff;
+}
+
+.fl-table td,
+.fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 14px;
+}
+
+.fl-table thead th {
+    color: #fff;
+    background: #541f8a;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+/* Responsive Mobile Styles */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+
+    .table-wrapper:before {
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: #fff;
+        padding: 0 0 10px;
+    }
+
+    .fl-table thead,
+    .fl-table tbody,
+    .fl-table thead th {
+        display: block;
+    }
+
+    .fl-table thead th:last-child {
+        border-bottom: none;
+    }
+
+    .fl-table thead {
+        float: left;
+    }
+
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+
+    .fl-table td,
+    .fl-table th {
+        padding: 20px 10px;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+
+    .fl-table tr td:nth-child(odd) {
+        background: #f8f8f8;
+        border-right: 1px solid #e6e4e4;
+    }
+
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #e6e4e4;
+    }
+
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+
+.dateWrapper {
+    display: flex;
+}
+
+.dateWrapper>div {
+    width: 50%;
+}
+
+.dateWrapper .input1 {
+    width: 80%;
+}
+
+#thisIsTheChosenYear {
+    width: calc(100% + 20px) !important;
+    height: auto !important;
+}
+
+#left-side form {
+    width: calc(60% + 20px);
+    margin: 5vh auto;
+}
+
+form {
+    margin: 5vh auto !important;
+}
+
+#inputName {
+    margin-top: 10px;
+}

@@ -1,0 +1,190 @@
+::selection { 
+    background: #d0a1ff; 
+}
+
+html, body {
+    height:100%;
+} 
+
+/* vietnamese */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v30/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo58m-wi40.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v30/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo58i-wi40.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v30/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo58a-wg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    background-image: url(img/background/login.webp);
+    background-size: cover;
+    background-position: top;
+    font-size: 20px;
+
+    overflow: hidden;
+}
+
+#blurry_container {
+    /*align center*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    /*blurr*/
+    backdrop-filter: blur(4px) brightness(0.82);
+
+    padding: 5% 8% 5% 8%;
+    border-radius: 10px;
+}
+
+input {
+    margin: 2% 0 2% 0;
+}
+
+.input{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    padding: 5px 5px 5px 0px;
+
+    /*center */
+    display: block;
+    margin : 2% 0 2% 0;
+
+    /*line instead of box*/
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+::placeholder {
+    color: white;
+}
+
+.underline {
+    border-bottom: 1px solid #ffffff;
+}
+
+.loginBtn, #smartschoolBtn {
+    font-family: 'Quicksand', sans-serif;
+    width: 102%;
+    height: 50px;
+    background-color: #8727A9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 5% 0 0% 0;
+    padding: 2%;
+}
+
+#smartschoolBtn {
+    margin: 0;
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+#smartschoolLogo {
+    border-right: 0.1rem solid;
+    flex: 0.2 0.2 0%;
+    padding-right: 0.5rem;
+    margin-right: 1rem;
+}
+
+#smartschoolLogo > svg {
+    width: 2em; 
+    height: 2em; 
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+#smartschoolText {
+    display: flex;
+    margin-left: 1em;
+}
+
+#container > .uaxL4e-RbRzK {
+    width: 500px !important;
+    height: 30px !important;
+    background-color: #c790ff !important;
+    border-radius: 5px !important;
+    border: none !important;
+    color: white !important;
+}
+
+#logo {
+    width: 40%;
+    height: 40%;
+    
+    /*align center*/
+    display: block;
+    margin: 0 auto 12% auto;
+}
+
+#password {
+    margin: 0;
+}
+
+#passwordForgotten {
+    /*align right*/
+    margin : 2% 0 2% 0;
+    float:right;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+    color: white;
+}
+
+/*login eye*/
+form i {
+    cursor: pointer;
+    color: #ffffff;
+    padding: 0;
+    margin-right: 5%;
+}
+
+#password_eye {
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url(img/background/login_mobile.png);
+        height: 100%;
+    }
+
+    #blurry_container {
+        left: 10%;
+        right: 10%;
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+}

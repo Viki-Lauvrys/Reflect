@@ -1,0 +1,625 @@
+body {
+    padding: 0;
+    margin:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#numbers {
+    margin-bottom: 0 !important;
+}
+
+.number {
+    width: 12.5% !important;
+    padding-left: 5%;
+}
+
+tbody {
+    border: 2px solid black;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    
+    background: linear-gradient(
+      to right,
+      #222 0%,
+      #222 25%,
+      #bb7bfc 25%,
+      #bb7bfc 100%
+    );
+    background-size: cover;
+
+    color: white;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.click {
+    cursor: pointer;
+}
+
+
+/*GRID*/
+
+#grid-container {
+    display: grid;
+    margin: 10px 5vw;
+}
+
+#grid-container :first-child {
+    margin-top: 0 !important;
+}
+
+.grid-item {
+    border-radius: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+} 
+
+.grid-item div:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.grid-item div:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+/*TABLE*/
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    border-spacing: 0;
+    width: 60vw;
+}
+
+.separator{
+    height: 25px;
+}
+
+td {
+    color: #000000 !important;
+    border: 1px solid #000000;
+    width: 30vw;
+    height: 5vh;
+    padding: 0;
+}
+
+.rangeChange {
+    overflow: hidden
+}
+
+
+.range {
+    height: 125%;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+  }
+  
+  .range::-webkit-slider-runnable-track {
+    height: 125%;
+    appearance: none;
+    -webkit-appearance: none;
+    color: #8d40db;
+  }
+  
+  .range::-webkit-slider-thumb {
+    width: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 125%;
+    cursor: ew-resize;
+    background: black; /*slider handle thing*/
+  }
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 15px;
+  }
+  
+  .slider:before {
+    left: 3px;
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 15px;
+  }
+  
+  input:checked + .slider {
+    background-color: #8d40db;
+  }
+   .slider {
+    box-shadow: 0 0 1px #8d40db;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+.bar{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 1px solid #777;
+    z-index: 2;
+}
+
+.color1 {
+    background-color: #d8b0ff;
+}
+
+.color2 {
+    background-color: #ae73e8;
+}
+
+.color3 {
+    background-color: #8d40db;
+}
+
+.color4 {
+    background-color: #6521a9;
+}
+
+/*disguise link*/
+.username {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*COLLAPSIBLE*/
+
+        /* Style the button that is used to open and close the collapsible content */
+        .collapsible {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            text-align: left;
+          }
+          
+          /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+          .active, .collapsible:hover {
+            background-color: #ccc;
+          }
+          
+          /* Style the collapsible content. Note: hidden by default */
+          .content {
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+          }
+
+          .infoRow {
+            color: #222;
+          }
+
+
+
+
+
+
+/*sidesss*/
+
+#sides-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    margin-top: calc(calc((100vh) - (calc(calc((35px) + (2vh) + (10%)) *7))) /2);
+}
+
+
+#left-side {
+    /*centered in half + left up*/
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    overflow: hidden;
+}
+
+#right-side {
+    /*centered in half + left up*/
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: 95vh;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+}
+
+#btn-convert:hover {
+    background-color: #7f3ac5;
+    color: white;
+    cursor: pointer;
+}
+
+#back {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.show {
+    display: none !important;
+}
+
+
+/* The switch */
+#switchContainer {
+    display: flex;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 20px;
+    margin: 0 5px 0 5px ;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+
+.feedback {
+    width: 98%;
+    height: 5vh;
+    color: #000 !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.period {
+    display: flex;
+}
+
+#choiseWrapper {
+    display: flex;
+    margin-left: 29vw;
+    margin-top: 2%;
+    position: absolute;
+}
+  
+.emptyTD {
+    width: 50%;
+}
+
+.battery_container {
+    padding: 5px 5px 0 2vw;
+}
+
+.battery {
+    width: 3vw;
+    margin: 0;
+}
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    #btn-convert {
+        display: none;
+    }
+}
+
+#inputName,
+#thisIsTheChosenYear {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 4vh;
+    font-size: 17px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #000;
+    border-width: 1px;
+}
+
+.input2 {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 4vh;
+    font-size: 17px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #000;
+    border-width: 1px;
+}
+
+.partTwo {
+    padding-left: 2%;
+}
+
+.input:focus,
+.input1:focus {
+    outline: none !important;
+    border-width: 2px;
+}
+
+.input1 {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 2% 10px 2%;
+    padding: 0.5%;
+    flex: 46%;
+    border-width: 1px;
+}
+
+#addUser>form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addUser>form>.textChoise {
+    margin: 10px 2% 10px 2%;
+}
+
+#addUser>form>input[type=submit] {
+    margin: 10px 2% 10px 22.5%;
+    flex: 40%;
+}
+
+/* Style the input fields */
+.input {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin: 10% 0 0 10%;
+    width: 75%;
+    height: 4vh;
+    font-size: 17px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+input {
+    color: #bb7bfc;
+}
+
+#btn-convert {
+    padding: 0 !important;
+    height: calc(4vh + 20px);
+    background-color: #bb7bfc;
+    color: white;
+    width: 110%;
+}
+
+.tableInput {
+    width: 100%;
+    height: 100%;
+}
+
+.role {
+    font-size: 17px;
+}
+
+.inputRole {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+#roleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+}
+
+img.sort {
+    height: 14px;
+}
+
+.input:focus,
+.input1:focus {
+    outline: none !important;
+    border-width: 2px;
+}
+
+.input1 {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 2% 10px 2%;
+    padding: 0.5%;
+    flex: 46%;
+    border-width: 1px;
+}
+
+#addUser>form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addUser>form>.textChoise {
+    margin: 10px 2% 10px 2%;
+}
+
+#addUser>form>input[type=submit] {
+    margin: 10px 2% 10px 22.5%;
+    flex: 40%;
+}
+
+input {
+    color: #bb7bfc;
+}
+
+.tableInput {
+    width: 100%;
+    height: 100%;
+}
+
+.role {
+    font-size: 17px;
+}
+
+.inputRole {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputEmpty {
+    margin-top: 15px;
+    color: white;
+}
+
+
+.icon {
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+#titleWrapper {
+    display: flex;
+    margin-left: 5vw;
+}
+
+h1 {
+    margin: 0 10px 0 0 !important;
+    color: #fff;
+}
+
+#sides-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-side {
+    margin: 0;
+    padding: 0;
+    width: 25vw;
+    overflow: hidden;
+}
+
+#right-side {
+    margin: 0;
+    padding: 0;
+    width: 75vw;
+}
+
+/* Collapsible Content */
+
+#addPeriod {
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    padding-left: 10px;
+}
+
+#addBtn {
+    height: 18px;
+    margin-bottom: 7px !important;
+    cursor: pointer;
+}
+
+#back {
+    padding: 0 15px 15px 15px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+}
+
+.dateWrapper {
+    display: flex;
+}
+
+.dateWrapper>div {
+    width: 50%;
+}
+
+.dateWrapper .input1 {
+    width: 80%;
+}
+
+#thisIsTheChosenYear {
+    width: calc(100% + 20px) !important;
+    height: auto !important;
+}
+
+#left-side form {
+    width: calc(60% + 20px);
+    margin: 5vh auto;
+}
+
+form {
+    margin: 0 auto !important;
+}
+
+#inputName {
+    margin-top: 10px;
+}
+
+
+
+/*SCROLL BAR*/
+
+.scrollbar1 {
+    height: 300px;
+    width: 50%;
+    overflow: auto;
+    padding: 0 10px;
+}
+/*       ScrollBar 1        */
+
+.scrollbar1::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollbar1::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+.scrollbar1::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #d55959;
+}
+
+.userWrapper {
+    margin-bottom: 50px;
+}
