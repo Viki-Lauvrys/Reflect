@@ -1,6 +1,6 @@
 # REFLECT - Een Zelfreflectietool voor Leerlingen
 
-REFLECT is een tool die leerlingen in staat stelt om zichzelf te reflecteren op hun leerproces en persoonlijke ontwikkeling. Met deze applicatie kunnen leerlingen hun ervaringen, prestaties en doelen evalueren, waardoor ze bewuster kunnen worden van hun sterke punten en gebieden waarop ze zich kunnen verbeteren. In September 2023 heeft deze applicatie de **eerste prijs voor praktische werken gewonnen bij de Zimmerprijs** (https://zimmertoren.be/zimmerprijs-fotoalbum-2023/). 
+REFLECT is een tool die leerlingen in staat stelt om zichzelf te reflecteren op hun leerproces en persoonlijke ontwikkeling. Met deze applicatie kunnen leerlingen hun ervaringen, prestaties en doelen evalueren, waardoor ze bewuster kunnen worden van hun sterke punten en gebieden waarop ze zich kunnen verbeteren. In September 2023 heeft deze applicatie de **eerste prijs voor praktische werken gewonnen bij de Zimmerprijs** (https://zimmertoren.be/zimmerprijs-fotoalbum-2023/). Ook is de applicatie in gebruik genomen op mijn voormalige middelbare school: Campus Sint-Ursula in Lier.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Gebruikte talen:
